@@ -1,0 +1,95 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "Photo": "null",
+      "FirstName": "raj",
+      "LastName": "gupta",
+      "Email": "devabn@gmail.com",
+      "Number": "655765556",
+      "Slider": "43",
+      "State": "maharasatra",
+      "Country": "india",
+      "Address": "indira nagar",
+      "Tags": "null",
+      "Check": "true"
+    },
+    {
+      "Photo": "C:\\fakepath\\wallpaperflare.com_wallpaper (9).jpg",
+      "FirstName": "fdgf",
+      "LastName": "sdf",
+      "Email": "devg3616an@gmail.com",
+      "Number": "dfgzfgfgfg",
+      "Slider": 27,
+      "State": "Maharasatra",
+      "Country": "USA",
+      "Address": "ssf",
+      "Tags": "",
+      "Check": false,
+      "id": 2
+    },
+    {
+      "Photo": "C:\\fakepath\\wallpaperflare.com_wallpaper (9).jpg",
+      "FirstName": "fdgf",
+      "LastName": "sdf",
+      "Email": "devg3616an@gmail.com",
+      "Number": "87987666",
+      "Slider": 27,
+      "State": "Maharasatra",
+      "Country": "India",
+      "Address": "hhh",
+      "Tags": "",
+      "Check": true,
+      "id": 3
+    },
+    {
+      "Photo": "C:\\fakepath\\wallpaperflare.com_wallpaper (9).jpg",
+      "FirstName": "fdgfgdfg",
+      "LastName": "asfD",
+      "Email": "FAD",
+      "Number": "",
+      "Slider": 32,
+      "State": "Odisaa",
+      "Country": "USA",
+      "Address": "ssf",
+      "Tags": "",
+      "Check": true,
+      "id": 4
+    },
+    {
+      "Photo": "C:\\fakepath\\wallpaperflare.com_wallpaper (9).jpg",
+      "FirstName": "fgzsgff",
+      "LastName": "fgzsf",
+      "Email": "fszgf",
+      "Number": "szgff",
+      "Slider": 23,
+      "State": "Maharasatra",
+      "Country": "India",
+      "Address": "fzsgfg",
+      "Tags": "",
+      "Check": false,
+      "id": 5
+    },
+    {
+      "Photo": "C:\\fakepath\\wallpaperflare.com_wallpaper (9).jpg",
+      "FirstName": "dsfDD",
+      "LastName": "dFAD",
+      "Email": "dFDF",
+      "Number": "dFADF",
+      "Slider": 31,
+      "State": "Maharasatra",
+      "Country": "USA",
+      "Address": "dFADDF",
+      "Tags": "",
+      "Check": true,
+      "id": 6
+    }
+  ]
+}

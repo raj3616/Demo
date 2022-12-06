@@ -1,0 +1,37 @@
+.header1{
+    display:flex;
+}
+#Demo {
+  font-size: larger;
+  margin:px 13px;
+  width: 40%;
+  /*margin:10px;*/
+  padding:12px;
+  margin-left:29px
+}
+.menu {
+  margin-left: 90%;
+  width: 60%;
+  top:10px;
+  display: inline-flex;
+  position: relative;
+  padding: 10px;
+  
+ 
+}
+nav {
+    margin: 0px 10px;
+    position: relative;
+  }
+a{
+    text-decoration:none
+}
+#box1{
+    text-decoration:overline;
+  
+    text-decoration-color:aqua;
+    text-decoration-thickness: 3px;
+}
+
+
+

@@ -1,0 +1,138 @@
+.regform {
+    height: 650px;
+    width: 1000px;
+    padding: 0;
+}
+
+h1 {
+    background-color: aqua;
+    padding: 10px;
+}
+
+input {
+    margin: 5px;
+}
+
+.container {
+    display: flex;
+}
+
+.container2 {
+    position: absolute;
+    margin-left: 432px;
+    padding: 26px
+}
+
+#img {
+    height: 310px;
+    width: 325px;
+}
+
+#profile {
+    cursor: pointer;
+    position: absolute;
+    margin-top: 315px;
+    margin-left: -240px;
+
+
+}
+
+#profile1 {
+    cursor: pointer;
+    position: absolute;
+    margin-top: 315px;
+    margin-left: -240px;
+
+}
+
+
+input[type=text],
+select {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=email],
+select {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=tel],
+select {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=matSliderThumb],
+select {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=check],
+select {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    /* border: 1px solid #ccc; */
+    /* border-radius: 4px; */
+    /* box-sizing: border-box; */
+}
+
+#name {
+
+    width: 90%;
+}
+
+#name2 {
+    position: absolute;
+    width: 50%;
+    margin-left: 309px;
+    margin-top: -49px;
+}
+
+#button1 {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+
+}
+
+#button2 {
+    background-color: aqua;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 50px;
+}

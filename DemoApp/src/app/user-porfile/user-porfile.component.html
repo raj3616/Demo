@@ -1,0 +1,37 @@
+<div id="header">
+<app-header id="header">hiii am header</app-header>
+
+</div>
+<div class="container" *ngFor="let user of users">
+  <div class="container1" style="width:40%;">
+    <img [src]="user.Photo" /> 
+    <!--<div id="img" width="30%">
+      Lorem, ipsum dolor sit amet consectetur ad
+    </div>-->
+    <div id="btn" width="30%">
+      <button id="button1" mat-button mat-dialog-close type="button"
+              (click)="editprofile()">
+        EditProfile
+      </button>
+      <button id="button2" mat-button mat-dialog-close type="button"
+              (click)="editphoto()">
+        EditPhoto
+      </button>
+    </div>
+  </div>
+  <div class="container2" width="70%">
+    <pre >
+        I'm {{user.FirstName}} {{user.LastName}} and I'm Above {{user.Slider - 1}} year and
+        you send your e-mail to {{user.Email}}
+        I am live in the State of {{user.State}}.
+        I like to play {{user.Tags}} .
+        And please send me newsletters.
+        Please reach out to me on my phone number.
+
+        <button id="agree">Agree</button>
+      </pre>
+  </div>
+</div>
+<div class="foo1">
+  <app-footer>hii i am footer</app-footer>
+</div>

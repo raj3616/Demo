@@ -1,0 +1,47 @@
+<div class="slider">
+  <div>
+    <div (click)="goToPrevious()" class="leftArrow">❰</div>
+    <div (click)="goToNext()" class="rightArrow">❱</div>
+  </div>
+  <form>
+    <div id="r1">
+      <div>
+        <h1>I'm Looking for...</h1>
+        <input placeholder="Enter Your Job Description" /> <button>Search</button>
+      </div>
+      <div class="check">
+        <div>
+          <input class="c1" type="checkbox" name="FullTime" id="FulTime">
+          <label for="FullTime">FullTime</label>
+        </div>
+        <br />
+        <div id="half">
+          <input class="c1" type="checkbox" name="HalfTime" id="HalfTime">
+          <label for="HalfTime">HalfTime </label>
+        </div>
+      </div>
+      <div id="drop">
+        <select>
+          <option selected value="default">Select You Location</option>
+          <option value="Kandivali">Kandivali</option>
+          <option value="Borivali">Borivali</option>
+          <option value="Malad">Malad</option>
+          <option value="Ram Mandir">Ram Mandir</option>
+        </select>
+      </div>
+    </div>
+    <button class="btn" mat-raised-button (click)="openform()">Register</button>
+    <!--<a [routerLink]="['../form']">
+      <button class="btn">
+      Register
+      </button>
+    </a>-->
+
+  </form>
+  <div class="slide" [ngStyle]="{ 'background-image': getCurrentSlideUrl() }"></div>
+  <div class="dotsContainer">
+    <div *ngFor="let slide of slides; let slideIndex = index" class="dot" (click)="goToSlide(slideIndex)">
+      ●
+    </div>
+  </div>
+</div>

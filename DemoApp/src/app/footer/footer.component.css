@@ -1,0 +1,26 @@
+.container {
+  padding: 22px;
+  position: absolute;
+  bottom: 30px;
+  color: white;
+  background-color: black;
+  width: 99%;
+  margin-bottom: 15px;
+  height: auto;
+  left: 6px;
+  box-sizing: border-box;
+}
+
+  .container div {
+    padding: 8px;
+    margin: 10px;
+  }
+
+  .container input {
+    border-block-color: deepskyblue;
+  }
+
+img {
+  width: 22px;
+  position: absolute;
+}

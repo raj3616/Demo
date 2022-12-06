@@ -1,0 +1,114 @@
+<form class="regform" [formGroup]="DemoForm">
+  <h1 mat-dialog-title>Register</h1>
+
+  <div class="container">
+    <div #img>
+      <mat-dialog-content>
+        <input type="image" height="300px" width="310px" [src]="imgpath" alt="">
+        <input id="profile"  (change)="onselect($event)" type="file" accept="image/*" formControlName="Photo"
+          placeholder="Upload Your Photo" name="photo">
+        <!-- <label id="profile1" for="photo">Upload Your Photo</label> -->
+      </mat-dialog-content>
+    </div>
+    <div class="container2">
+      <div>
+        <div>
+          <input id="name" type="text" placeholder="FirstName" formControlName="FirstName" name="firstname"><br>
+          <span style="color: red;" *ngIf="fname.invalid && fname && fname.touched">This Field Is InValid</span>
+        </div>
+        <input id="name2" type="text" placeholder="LastName" formControlName="LastName" name="lastname">
+      </div>
+      <div>
+        <mat-dialog-content>
+
+          <input type="email" placeholder="Email" formControlName="Email" name="email">
+        </mat-dialog-content>
+      </div>
+      <div>
+        <mat-dialog-content>
+
+          <input type="tel" placeholder="(+91)82992XXXXX" formControlName="Number" name="number">
+        </mat-dialog-content>
+      </div>
+      <div class="slider">
+        <mat-dialog-content>
+          <h4>
+            Age :<sub>20</sub>
+            <mat-slider [min]="20" [max]="60" formControlName="Slider" name="Slider">
+              <input matSliderThumb>
+            </mat-slider><sub>60</sub> : {{this.DemoForm.get('Slider').value}}
+          </h4>
+        </mat-dialog-content>
+      </div>
+      <div>
+        <mat-dialog-content>
+          <select formControlName="State">
+            <option [value]="0">State</option>
+            <option [value]="'Maharasatra'">Maharasatra</option>
+            <option [value]="'Odisaa'">Odisaa</option>
+            <option [value]="'Rajashtan'">Rajashtan</option>
+            <option [value]="'Chennai'">Chennai</option>
+            <option [value]="'Hydrabad'">Hydrabad</option>
+          </select>
+        </mat-dialog-content>
+      </div>
+      <div>
+        <mat-dialog-content>
+
+          <select formControlName="Country">
+            <option [value]="0">Country</option>
+            <option [value]="'India'">India</option>
+            <option [value]="'USA'">USA</option>
+            <option [value]="'Canada'">Canada</option>
+            <option [value]="'France'">France</option>
+            <option [value]="'Britain'">Britain</option>
+          </select>
+        </mat-dialog-content>
+      </div>
+      <div class="address">
+        <mat-dialog-content>
+          <input type="text" placeholder="Address" formControlName="Address" name="address">
+        </mat-dialog-content>
+      </div>
+      <div class="tags">
+        <mat-dialog-content>
+          <!-- <mat-form-field class="example-chip-list" appearance="fill">
+    <mat-label>Favorite Fruits</mat-label>
+    <mat-chip-set #chipGrid aria-label="Fruit selection">
+      <mat-chip-row *ngFor="let fruit of fruits" (removed)="remove(fruit)">
+        {{fruit}}
+        <button matChipRemove [attr.aria-label]="'remove ' + fruit">
+          <mat-icon>cancel</mat-icon>
+        </button>
+      </mat-chip-row>
+    </mat-chip-set>
+    <input placeholder="New Fruit..." #fruitInput [formControl]="fruitCtrl" [matChipInputFor]="chipGrid"
+      [matChipInputSeparatorKeyCodes]="separatorKeysCodes" (matChipInputTokenEnd)="add($event)" />
+  </mat-form-field> -->
+
+        </mat-dialog-content>
+
+      </div>
+
+      <div class="check">
+        <mat-dialog-content>
+
+          <input type="checkbox" formControlName="Check" name="news">
+          <label for="news">subscribe to newsletter</label>
+        </mat-dialog-content>
+      </div>
+      <div>
+        <mat-dialog-content>
+
+          <button id="button1" mat-button mat-dialog-close mat-dialog-close="false" type="reset"
+            >Cancel</button>
+          <button id="button2" mat-button mat-dialog-close mat-dialog-close="true" type="submit"
+            class="btn" (click)="submitdata()">Submmit</button>
+        </mat-dialog-content>
+      </div>
+    </div>
+  </div>
+</form>
+
+
+<!-- {{this.DemoForm.value|json}} -->

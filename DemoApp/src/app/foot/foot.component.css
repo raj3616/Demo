@@ -1,0 +1,85 @@
+.rr {
+  height: 75px;
+  bottom: 0;
+  position: absolute;
+  background-color: grey;
+  width: 99%;
+  left: 6px;
+  border-top: dashed;
+  border-bottom: dashed;
+  box-sizing: border-box;
+}
+
+#Hello img {
+  width: 22px;
+  z-index: 1;
+  position: absolute;
+  bottom: 20px;
+  margin-left: 85%;
+  padding: 3px;
+  /*  width: 18px;
+  position: absolute;
+  margin-left: 28px;
+  margin: 10px;*/
+}
+
+#t {
+  left: 60px;
+}
+
+#img1 {
+  width: 21px;
+  z-index: 2;
+  position: absolute;
+  bottom: 36.5px;
+  margin-left: 23px;
+  /*  width: 18px;
+  position: absolute;
+  margin-left: 28px;
+  margin: 10px;*/
+}
+
+i1 {
+  height: 100px;
+  bottom: 20px;
+  margin-left: 80%;
+  text-transform: capitalize;
+  position: absolute;
+  float: left;
+}
+
+.f1 {
+  margin-top: 33px;
+  margin-left: 19px;
+}
+
+
+/*div {
+  bottom: 0;
+  position: absolute;
+  background-color: grey;
+  width: 99%;
+  padding: 20px;
+  border-top: dashed;
+  border-bottom: dashed;
+  box-sizing: border-box;
+}*/
+#input {
+  position: absolute;
+  bottom: 36px;
+  z-index: 1;
+  margin-left: 41px;
+}
+
+/*img {
+  width: 18px;
+  position: absolute;
+  bottom: 47px;
+  z-index: 1;
+  margin-left: 28px;
+  width: 22px;
+  margin: 10px;
+}
+/i1 {
+ 
+}*/

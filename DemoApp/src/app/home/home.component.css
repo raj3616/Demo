@@ -1,0 +1,9 @@
+#img1 {
+  position: absolute;
+  width: 80%;
+}
+
+#header {
+  position: absolute;
+  z-index: 1;
+}
